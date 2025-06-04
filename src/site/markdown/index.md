@@ -1,4 +1,4 @@
-## About Site API Generic Edit Handler Extensions
+## About Site API Generic Edit Handler Extension
 
 Support wcm.io Handler infrastructure in Site API Generic Edit Mode.
 
@@ -14,7 +14,7 @@ Support wcm.io Handler infrastructure in Site API Generic Edit Mode.
 
 ### Overview
 
-The Site API Generic Edit Handler Extensions:
+The Site API Generic Edit Handler Extension:
 
 * Extends [Site API Generic Edit][generic-edit] with capabilities for [wcm.io Handler][handler].
 * Add ValueInspectorService implementations to detect wcm.io Handler Link and Media objects, or the related mixins from [wcm.io WCM Core Components][wcm-core-components].
@@ -23,7 +23,7 @@ The Site API Generic Edit Handler Extensions:
 
 ### AEM Version Support Matrix
 
-| Site API Generic Edit Handler Extensions version | AEM Sites Core Component version |AEM version supported
+| Site API Generic Edit Handler Extension version | AEM Sites Core Component version |AEM version supported
 |--------------------------------------------------|----------------------------------|-----------------------
 |1.1.0 or higher                                   |2.25.4 and up                     |AEM 6.5.17+, AEMaaCS
 

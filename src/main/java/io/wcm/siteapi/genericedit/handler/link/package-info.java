@@ -18,7 +18,7 @@
  * #L%
  */
 /**
- * Site API Generic Edit Handler Extensions: Link Handler Integration.
+ * Site API Generic Edit Handler Extension: Link Handler Integration.
  */
 @org.osgi.annotation.versioning.Version("1.0")
 package io.wcm.siteapi.genericedit.handler.link;

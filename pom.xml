@@ -34,7 +34,7 @@
   <version>1.1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Site API Generic Edit Handler Extensions</name>
+  <name>Site API Generic Edit Handler Extension</name>
   <description>Support wcm.io Handler infrastructure in Site API Generic Edit Mode.</description>
   <url>${site.url}/${site.url.module.prefix}/</url>
 

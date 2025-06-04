@@ -1,4 +1,4 @@
-## Site API Generic Edit Handler Extensions usage
+## Site API Generic Edit Handler Extension usage
 
 First, follow the usage steps outlined in the [Site API Generic Edit usage][generic-edit-usage].
 
