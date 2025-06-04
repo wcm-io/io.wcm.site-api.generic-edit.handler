@@ -25,7 +25,7 @@ The Site API Generic Edit Handler Extensions:
 
 | Site API Generic Edit Handler Extensions version | AEM Sites Core Component version |AEM version supported
 |--------------------------------------------------|----------------------------------|-----------------------
-|1.0.0 or higher                                   |2.23.2 and up                     |AEM 6.5.17+, AEMaaCS
+|1.1.0 or higher                                   |2.25.4 and up                     |AEM 6.5.17+, AEMaaCS
 
 
 ### Dependencies
