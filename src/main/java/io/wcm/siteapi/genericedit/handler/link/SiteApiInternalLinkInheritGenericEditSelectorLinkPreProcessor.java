@@ -73,7 +73,9 @@ public class SiteApiInternalLinkInheritGenericEditSelectorLinkPreProcessor imple
     return link;
   }
 
-  @SuppressWarnings({ "null", "unused" })
+  @SuppressWarnings({
+      "null", "unused"
+  })
   @SuppressFBWarnings("RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE")
   private boolean isInternalLink(@NotNull Link link) {
     LinkType linkType = link.getLinkType();
