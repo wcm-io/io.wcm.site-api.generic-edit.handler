@@ -57,7 +57,7 @@ class LinkMediaValueInspectorServiceTest {
   private Page page;
 
   @BeforeEach
-  void setUp() throws Exception {
+  void setUp() {
     componentBuilder = context.getService(GenericComponentBuilderService.class);
     page = context.create().page("/content/site1/page1");
   }

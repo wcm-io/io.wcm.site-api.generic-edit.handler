@@ -21,7 +21,7 @@ package io.wcm.siteapi.genericedit.handler.link;
 
 import javax.annotation.PostConstruct;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Model;
@@ -82,8 +82,8 @@ public class SiteApiInternalLinkInheritGenericEditSelectorLinkPreProcessor imple
     if (linkType == null) { // should never be null, but actually can be null for null-reference link
       return false;
     }
-    return StringUtils.equals(linkType.getId(), InternalLinkType.ID)
-        || StringUtils.equals(linkType.getId(), InternalCrossContextLinkType.ID);
+    return Strings.CS.equals(linkType.getId(), InternalLinkType.ID)
+        || Strings.CS.equals(linkType.getId(), InternalCrossContextLinkType.ID);
   }
 
   private boolean isRequestHasGenericEditSelector() {

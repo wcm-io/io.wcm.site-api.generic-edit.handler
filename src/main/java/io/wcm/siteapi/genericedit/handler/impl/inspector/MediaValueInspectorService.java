@@ -19,7 +19,7 @@
  */
 package io.wcm.siteapi.genericedit.handler.impl.inspector;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.osgi.service.component.annotations.Component;
@@ -54,7 +54,7 @@ public class MediaValueInspectorService extends ValueInspectorService<MediaValue
     if (rawValue instanceof Media) {
       return (Media)rawValue;
     }
-    if (StringUtils.equals(key, PROPERTY_MEDIAMIXIN_MEDIAURL) && instance instanceof MediaMixin) {
+    if (Strings.CS.equals(key, PROPERTY_MEDIAMIXIN_MEDIAURL) && instance instanceof MediaMixin) {
       return ((MediaMixin)instance).getMediaObject();
     }
     return null;

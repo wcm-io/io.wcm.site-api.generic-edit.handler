@@ -44,7 +44,7 @@ class SiteApiInternalLinkInheritGenericEditSelectorLinkPreProcessorTest {
   private Page page;
 
   @BeforeEach
-  void setUp() throws Exception {
+  void setUp() {
     page = context.currentPage(context.create().page("/content/site1/page1"));
   }
 

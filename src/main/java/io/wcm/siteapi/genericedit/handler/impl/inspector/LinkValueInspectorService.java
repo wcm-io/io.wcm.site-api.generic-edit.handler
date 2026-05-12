@@ -19,7 +19,7 @@
  */
 package io.wcm.siteapi.genericedit.handler.impl.inspector;
 
-import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.Strings;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.osgi.service.component.annotations.Component;
@@ -54,7 +54,7 @@ public class LinkValueInspectorService extends ValueInspectorService<LinkValue> 
     if (rawValue instanceof Link) {
       return (Link)rawValue;
     }
-    if (StringUtils.equals(key, PROPERTY_LINKMIXIN_LINKURL) && instance instanceof LinkMixin) {
+    if (Strings.CS.equals(key, PROPERTY_LINKMIXIN_LINKURL) && instance instanceof LinkMixin) {
       return ((LinkMixin)instance).getLinkObject();
     }
     return null;
